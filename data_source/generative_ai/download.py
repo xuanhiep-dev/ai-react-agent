@@ -30,11 +30,12 @@ file_links = [
 
 
 def is_exist(file_link):
-    filename = f"./{file_link['title']}.pdf"
+    filename = f"data_source/generative_ai/{file_link['title']}.pdf"
     return os.path.exists(filename)
 
 
 for file_link in file_links:
     if not is_exist(file_link):
         print(f"Downloading: {file_link['title']}")
-        wget.download(file_link["url"], out=f"./{file_link['title']}.pdf")
+        wget.download(
+            file_link["url"], out=f"data_source/generative_ai/{file_link['title']}.pdf")

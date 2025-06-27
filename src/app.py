@@ -4,12 +4,13 @@ from langserve import add_routes
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi import FastAPI
 import os
+
 os.environ["TOKENIZERS_PARALLELISM"] = "false"
 
 
 # Generate LLM
 llm = get_hf_llm(temperature=0.9)
-genai_docs = "./data_source/generative_ai"
+genai_docs = "data_source/generative_ai"
 
 
 # --------- Chains -------------------------
