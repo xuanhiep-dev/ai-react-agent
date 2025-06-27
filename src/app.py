@@ -4,18 +4,15 @@ from langserve import add_routes
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi import FastAPI
 import os
-
 os.environ["TOKENIZERS_PARALLELISM"] = "false"
 
 
 # Generate LLM
 llm = get_hf_llm(temperature=0.9)
-genai_docs = "data_source/generative_ai"
-
+genai_docs = "./data_source/generative_ai"
 
 # --------- Chains -------------------------
 genai_chain = build_rag_chain(llm, data_dir=genai_docs, data_type="pdf")
-
 
 # --------- App - FastAPI ------------------
 app = FastAPI(
