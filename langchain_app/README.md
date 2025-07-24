@@ -13,8 +13,3 @@ RAG combines **semantic search** and **generative AI** to answer questions with 
 - Modular **Tool Functions**: e.g., PDF loader, Qdrant search
 - Supports **ReAct Agent** with dynamic tool calling
 - Built with **LangChain Agents** and Chains
-
----
-
-## **Project Structure**
-

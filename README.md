@@ -12,31 +12,21 @@ This repository contains a collection of Retrieval-Augmented Generation (RAG) ap
 ```
 rag-llm-suite/
 │
-├── chainlit_app/                      # RAG chatbot UI with Chainlit
-│   ├── rag_chatbot_demo.ipynb         # Demo notebook for Chainlit chatbot
-│   ├── rag_chatbot.ipynb              # Main notebook for chatbot logic
+├── chainlit_app/           # Chatbot UI with Chainlit (notebooks)
 │
-├── langchain_app/                     # RAG pipeline using LangChain
-│   ├── data_source/
-│   │   └── generative_ai/
-│   │       └── download.py            # Script to download or prepare data
-│   │
-│   ├── src/
-│   │   ├── base/
-│   │   │   └── llm_model.py           # LLM interface setup (e.g., LLaMA)
-│   │   │
-│   │   └── rag/
-│   │       ├── file_loader.py         # File parsing and document preparation
-│   │       ├── main.py                # Entry point for RAG pipeline
-│   │       ├── offline_rag.py         # RAG without external APIs
-│   │       ├── utils.py               # Common utility functions
-│   │       └── vectorstore.py         # Vector DB setup (e.g., Chroma)
-│   │
-│   ├── app.py                         # Optional app interface
-│   ├── rag_langchain.ipynb            # Notebook interface for LangChain RAG
+├── langchain_app/          # LangChain-based RAG pipeline
+│   ├── data_source/        # Raw data loader
+│   ├── src/                # LLM and RAG modules
+│   ├── app.py              # Optional web interface
+│   └── rag_langchain.ipynb # Notebook for testing
 │
-├── README.md                          # Project overview and usage
-└── requirements.txt                   # Shared Python dependencies
+├── legal_rag_app/          # Legal document search with RAG
+│   ├── results/            # Output files
+│   ├── main.py             # Pipeline entry point
+│   └── legal-document-search.ipynb  # Notebook demo
+│
+├── requirements.txt        # Shared dependencies
+└── README.md               # Project overview
 ```
 ---
 
