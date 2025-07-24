@@ -1,0 +1,6 @@
+services:
+  fastapi-app:
+    build: .
+    image: xuanhiepp/legal-search-api:latest
+    ports:
+      - "8000:8000"

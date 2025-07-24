@@ -1,0 +1,130 @@
+Query 1: NLĐ bị sa thải có được trả lương hay không?
+Article 1: Tiền lương và các quyền lợi hợp pháp khác của người lao động trong thời gian đình công
+---
+Article 2: Tiền lương
+---
+Article 3: Nghĩa vụ của người lao động khi đơn phương chấm dứt hợp đồng lao động trái pháp luật
+---
+Article 4: Tiền lương ngừng việc
+---
+Article 5: Căn cứ đóng bảo hiểm xã hội
+---
+
+
+Query 2: Người sử dụng lao động được sa thải người lao động nữ đang mang thai không?
+Article 1: Bảo vệ thai sản
+---
+Article 2: Trường hợp người sử dụng lao động không được thực hiện quyền đơn phương chấm dứt hợp đồng lao động
+---
+Article 3: Nghỉ thai sản
+---
+Article 4: Thời gian nghỉ việc hưởng chế độ thai sản khi sảy thai, phá thai, thai chết trong tử cung, thai chết trong khi chuyển dạ, thai ngoài tử cung
+---
+Article 5: Hồ sơ đề nghị hưởng chế độ thai sản
+---
+
+
+Query 3: Quy định về điều chuyển nhân sự được quy định như thế nào?
+Article 1: Hồ sơ đề nghị hưởng bảo hiểm xã hội một lần
+---
+Article 2: Xử lý thỏa ước lao động tập thể vô hiệu
+---
+Article 3: Nguyên tắc thương lượng tập thể
+---
+Article 4: Nghĩa vụ của người sử dụng lao động khi chia, tách, hợp nhất, sáp nhập; bán, cho thuê, chuyển đổi loại hình doanh nghiệp; chuyển nhượng quyền sở hữu, quyền sử dụng tài sản của doanh nghiệp, hợp tác xã
+---
+Article 5: Nội dung đối thoại tại nơi làm việc
+---
+
+
+Query 4: Người lao động được thuê làm giám đốc doanh nghiệp Nhà nước được hưởng các chế độ về tiền lương, thưởng như thế nào?
+Article 1: Trả lương thông qua người cai thầu
+---
+Article 2: Thưởng
+---
+Article 3: Quyền và nghĩa vụ của người lao động thuê lại
+---
+Article 4: Xây dựng thang lương, bảng lương và định mức lao động
+---
+Article 5: Quyền và nghĩa vụ của doanh nghiệp cho thuê lại lao động
+---
+
+
+Query 5: Làm việc 8h một ngày thì được nghỉ giữa giờ ít nhất bao nhiêu phút?
+Article 1: Thời giờ làm việc của người chưa thành niên
+---
+Article 2: Nghỉ trong giờ làm việc
+---
+Article 3: Làm thêm giờ
+---
+Article 4: Thời giờ làm việc bình thường
+---
+Article 5: Tiền lương làm thêm giờ, làm việc vào ban đêm
+---
+
+
+Query 6: Người sử dụng lao động đào tạo nghề nghiệp và phát triển kỹ năng nghề cho người lao động như thế nào?
+Article 1: Trách nhiệm của người sử dụng lao động về đào tạo, bồi dưỡng, nâng cao trình độ, kỹ năng nghề
+---
+Article 2: Đào tạo nghề nghiệp và phát triển kỹ năng nghề
+---
+Article 3: Chính sách của Nhà nước về lao động
+---
+Article 4: Nội dung quản lý nhà nước về lao động
+---
+Article 5: Giải thích từ ngữ
+---
+
+
+Query 7: Nguyên tắc cho thuê lại lao động là gì?
+Article 1: Quyền và nghĩa vụ của người lao động thuê lại
+---
+Article 2: Cho thuê lại lao động
+---
+Article 3: Hợp đồng cho thuê lại lao động
+---
+Article 4: Quyền và nghĩa vụ của doanh nghiệp cho thuê lại lao động
+---
+Article 5: Thực hiện thỏa ước lao động tập thể doanh nghiệp trong trường hợp chia, tách, hợp nhất, sáp nhập; bán, cho thuê, chuyển đổi loại hình doanh nghiệp; chuyển nhượng quyền sở hữu, quyền sử dụng tài sản của doanh nghiệp
+---
+
+
+Query 8: Thời hạn của thỏa ước lao động tập thể như thế nào?
+Article 1: Thỏa ước lao động tập thể hết hạn
+---
+Article 2: Thực hiện thỏa ước lao động tập thể tại doanh nghiệp
+---
+Article 3: Thỏa ước lao động tập thể
+---
+Article 4: Hiệu lực và thời hạn của thỏa ước lao động tập thể
+---
+Article 5: Loại hợp đồng lao động
+---
+
+
+Query 9: Hợp đồng lao động được giao kết theo hình thức nào?
+Article 1: Nguyên tắc giao kết hợp đồng lao động
+---
+Article 2: Thực hiện công việc theo hợp đồng lao động
+---
+Article 3: Thương lượng tập thể
+---
+Article 4: Hợp đồng lao động
+---
+Article 5: Hiệu lực của hợp đồng lao động
+---
+
+
+Query 10: Nội dung về đào tạo lao động có bắt buộc phải ghi vào hợp đồng lao động?
+Article 1: Thực hiện công việc theo hợp đồng lao động
+---
+Article 2: Phụ lục hợp đồng lao động
+---
+Article 3: Thỏa ước lao động tập thể
+---
+Article 4: Đối tượng áp dụng
+---
+Article 5: Hợp đồng lao động
+---
+
+

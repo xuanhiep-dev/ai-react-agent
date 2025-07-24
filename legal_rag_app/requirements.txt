@@ -1,0 +1,6 @@
+torch
+fastapi
+uvicorn
+sentence-transformers
+qdrant-client
+underthesea
