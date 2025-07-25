@@ -1,10 +1,10 @@
 # RAG-LLM Suite
 
-This repository contains a collection of Retrieval-Augmented Generation (RAG) applications leveraging Large Language Models (LLMs). It includes:
+This repository includes a set of Retrieval-Augmented Generation (RAG) projects that make use of Large Language Models (LLMs). It includes:
 
 - A **LangChain-based RAG pipeline** for context-aware question answering.
 - A **Chainlit-based interface** to interact with the system in real time.
-- A shared module with reusable components (retriever, utils, configs).
+- A **legal-domain RAG module** for semantic search and question answering over Vietnamese legal documents.
 
 ---
 
