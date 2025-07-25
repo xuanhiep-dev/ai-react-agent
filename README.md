@@ -57,3 +57,9 @@ jupyter notebook rag_langchain.ipynb
 cd chainlit_app
 jupyter notebook rag_chatbot.ipynb
 ```
+
+### 4. Run Legal App
+```
+cd chainlit_app
+jupyter notebook legal_document_search.ipynb
+```
