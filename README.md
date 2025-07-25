@@ -1,4 +1,4 @@
-# AI ReAct Agent
+# AI Agent with ReAct Pattern
 
 An **AI ReAct Agent** is a reasoning + acting pipeline that combines a Large Language Model (**LLM**) with **external tools** to answer user queries more reliably and transparently.
 
