@@ -13,12 +13,12 @@ The goal is to build **transparent, modular, and tool-augmented AI pipelines** f
 
 ## Repository Structure
 
-- **ai_react_agent_graph.ipynb** Demonstrates how to build a **graph-based ReAct Agent** that integrates reasoning steps and tool calls dynamically.
-- **news_filter_summarizer_agent.ipynb:** A pipeline for **filtering and summarizing news articles** with an LLM + retrieval module.
-- **object_detection_tools.ipynb** Shows how to connect **vision models (YOLO, SAM)** as callable tools for an agent.
-- **reflection_agent_faiss.ipynb** A reflection-based agent that retrieves knowledge using **FAISS vector database**.
-- **reflection_agent_qdrant.ipynb** Similar to the FAISS version but uses **Qdrant vector database** for semantic retrieval.
-- **images/** Folder to store sample images, detection results, and visualization outputs.
+- **ai_react_agent_graph.ipynb** -- Demonstrates how to build a **graph-based ReAct Agent** that integrates reasoning steps and tool calls dynamically.
+- **news_filter_summarizer_agent.ipynb** -- A pipeline for **filtering and summarizing news articles** with an LLM + retrieval module.
+- **object_detection_tools.ipynb** -- Shows how to connect **vision models (YOLO, SAM)** as callable tools for an agent.
+- **reflection_agent_faiss.ipynb** -- A reflection-based agent that retrieves knowledge using **FAISS vector database**.
+- **reflection_agent_qdrant.ipynb** -- Similar to the FAISS version but uses **Qdrant vector database** for semantic retrieval.
+- **images/** -- Folder to store sample images, detection results, and visualization outputs.
 
 ---
 
