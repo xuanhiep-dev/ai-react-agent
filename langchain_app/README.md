@@ -20,11 +20,19 @@ In this project, the pipeline is applied to **research data querying**, enabling
 ## Example Use Case
 ```
 **Input Query** 
-<Your question>
+"What are the recent advances in using multimodal AI for cancer diagnosis?"
+
 **Retrieved Context (from list of papers)**  
-- *Paper 1*: A fusion method combining vision methods and LLMs for radiology reports.  
-- *Paper 2*: Contrastive pretraining with paired MRI scans and clinical notes.  
+- *Paper 1 (Nature Medicine, 2023)*: A fusion method combining vision methods and LLMs for radiology reports.  
+- *Paper 2 (arXiv:2401.56789, 2024)*: Contrastive pretraining with paired MRI scans and clinical notes.  
+
 **Generated Answer**
+Recent research for cancer diagnosis has focused on two promising approaches:  
+1. **Vision–Language Fusion Models**: Vision are combined with large language models to jointly interpret imaging data and generate clinically grounded reports. This method improves both diagnostic accuracy and interpretability in radiology and pathology.  
+2. **Contrastive Pretraining with Paired Data**: By aligning MRI scans with their corresponding clinical notes, models learn richer multimodal representations, outperforming traditional CNN-based systems in tumor detection and classification.
+
+Together, these approaches mark a shift toward **integrated reasoning**, enabling AI systems to deliver more accurate, explainable, and context-aware diagnostic support.  
+(Sources: *Nature Medicine 2023; arXiv:2401.56789*)
 ```
 
 ## Real-World Applications

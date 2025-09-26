@@ -1,6 +1,9 @@
 # RAG Chatbot Tutorial
 
-This file show the way to create a RAG Chatbot
+This tutorial shows how to build a **Retrieval-Augmented Generation (RAG)** chatbot with **LangChain**, **HuggingFace**, and **Chainlit**.  
+The chatbot allows users to upload PDFs or text files and ask contextual questions grounded in the uploaded documents.
+
+---
 
 ### 1. Install some libraries
 
@@ -119,3 +122,15 @@ print(url)
 !chainlit run file_name.py
 """
 ```
+
+### Example Interaction
+```
+User: "What are the main topics in this PDF?"
+Bot: "The document discusses several key points including deep learning models, their training pipelines, and practical applications in natural language processing."
+```
+
+### Extensions
+- Add support for multiple documents at once
+- Swap HuggingFace LLM with OpenAI/Gemini API
+- Save and reload Chroma vector DB for faster startup
+- Build a simple web UI for non-technical users
