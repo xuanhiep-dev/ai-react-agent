@@ -1,10 +1,16 @@
 # RAG-LLM Suite
 
-This repository includes a set of Retrieval-Augmented Generation (RAG) projects that make use of Large Language Models (LLMs). It includes:
+A collection of **Retrieval-Augmented Generation (RAG)** projects built on top of **Large Language Models (LLMs)**.  
+The suite demonstrates how to combine **semantic search** with **generative models** to provide accurate, context-grounded answers.
 
-- A **LangChain-based RAG pipeline** for context-aware question answering.
-- A **Chainlit-based interface** to interact with the system in real time.
-- A **legal-domain RAG module** for semantic search and question answering over Vietnamese legal documents.
+---
+
+## Key Features
+- **Modular design**: LangChain-based RAG pipeline, Chainlit chatbot UI, and Legal-domain RAG module.
+- **Semantic retrieval**: FAISS / Qdrant vector search integrated with LLMs.
+- **Legal-domain support**: Specialized module for Vietnamese legal documents.
+- **Interactive UI**: Real-time chatbot interface with Chainlit.
+- **Extensible**: Easy to add new data sources, retrievers, or frontends.
 
 ---
 
@@ -13,6 +19,7 @@ This repository includes a set of Retrieval-Augmented Generation (RAG) projects 
 rag-llm-suite/
 │
 ├── chainlit_app/           # Chatbot UI with Chainlit (notebooks)
+│   └── rag_chatbot.ipynb # Notebook demo
 │
 ├── langchain_app/          # LangChain-based RAG pipeline
 │   ├── data_source/        # Raw data loader
@@ -28,15 +35,6 @@ rag-llm-suite/
 ├── requirements.txt        # Shared dependencies
 └── README.md               # Project overview
 ```
----
-
-## Features
-
-- Modular design for integrating different RAG pipelines.
-- Shared utilities and retriever logic across apps.
-- Chainlit UI for fast prototyping and user interaction.
-- Easily extensible for more frameworks or UIs.
-
 ---
 
 ## Quick Start
@@ -63,3 +61,28 @@ jupyter notebook rag_chatbot.ipynb
 cd chainlit_app
 jupyter notebook legal_document_search.ipynb
 ```
+
+## Example Output
+```
+User: Quy định về chấm dứt hợp đồng lao động là gì?
+System: Theo Điều 34 Bộ luật Lao động 2019, hợp đồng lao động chấm dứt trong các trường hợp: ...
+(Source: legal_doc_2023.pdf)
+```
+
+## Tech Stack
+- LangChain – RAG pipeline, retrievers, chains
+- LLMs – OpenAI GPT / HuggingFace models
+- Vector DBs – FAISS, Qdrant
+- UI – Chainlit
+- Python – Core implementation
+
+## Use Cases
+- Legal document Q&A (Vietnamese law)
+- Knowledge base assistants
+- Enterprise search + chatbots
+- Educational tools for document exploration
+
+## Future Work
+- Add evaluation metrics (e.g., Faithfulness, Recall@k)
+- Dockerize apps for easy deployment
+- Support multi-lingual datasets
