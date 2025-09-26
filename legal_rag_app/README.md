@@ -2,7 +2,6 @@
 ![FastAPI](https://img.shields.io/badge/FastAPI-0.110-green?logo=fastapi)
 ![Qdrant](https://img.shields.io/badge/VectorDB-Qdrant-orange?logo=qdrant)
 ![Docker](https://img.shields.io/badge/Docker-ready-blue?logo=docker)
-![License](https://img.shields.io/badge/License-MIT-lightgrey)
 
 # Installation Guide and Usage Instructions
 A simple RESTful API for semantic search of Vietnamese legal documents using FastAPI, Sentence-BERT, and Qdrant.
