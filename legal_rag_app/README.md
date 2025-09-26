@@ -82,7 +82,6 @@ http://localhost:8000/docs or http://127.0.0.1:8000/docs
 }
 ```
 <img src="example.png" alt="Example"/>
-```
 
 ## Contributing
 Contributions, issues, and feature requests are welcome.  
