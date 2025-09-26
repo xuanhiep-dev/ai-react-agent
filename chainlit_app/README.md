@@ -1,3 +1,7 @@
+![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python)
+![Qdrant](https://img.shields.io/badge/VectorDB-Qdrant-orange?logo=qdrant)
+![Docker](https://img.shields.io/badge/Docker-ready-blue?logo=docker)
+
 # RAG Chatbot Tutorial
 
 This tutorial shows how to build a **Retrieval-Augmented Generation (RAG)** chatbot with **LangChain**, **HuggingFace**, and **Chainlit**.  

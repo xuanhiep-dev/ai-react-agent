@@ -1,3 +1,8 @@
+![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python)
+![FastAPI](https://img.shields.io/badge/FastAPI-0.110-green?logo=fastapi)
+![Qdrant](https://img.shields.io/badge/VectorDB-Qdrant-orange?logo=qdrant)
+![Docker](https://img.shields.io/badge/Docker-ready-blue?logo=docker)
+
 # RAG-LangChain
 
 This repository demonstrates how to build a **Retrieval-Augmented Generation (RAG)** pipeline using **LangChain**, **OpenAI** or **Gemini LLMs**, and vector databases (e.g., FAISS, Qdrant, Pinecone, Chroma).  
