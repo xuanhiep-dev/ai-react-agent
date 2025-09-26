@@ -66,7 +66,7 @@ jupyter notebook legal_document_search.ipynb
 ```
 👤 User: Quy định về chấm dứt hợp đồng lao động là gì?
 
-🤖 AI Agent:
+🤖 Chatbot:
 Theo Điều 34 Bộ luật Lao động 2019, hợp đồng lao động chấm dứt trong các trường hợp:
 - Hết hạn hợp đồng
 - Hai bên thỏa thuận chấm dứt
