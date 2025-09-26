@@ -124,6 +124,9 @@ It demonstrates:
 - Ability to design practical AI systems
 - Skills in both research and engineering
 
-## Contribution & License
-- Contributions, issues, and feature requests are welcome!  
-- Feel free to open a PR or report a bug.
+## Contributing
+Contributions, issues, and feature requests are welcome.  
+Feel free to open an [issue](../../issues) or submit a PR.  
+
+## License
+License © 2025 [Duong Xuan Hiep]
