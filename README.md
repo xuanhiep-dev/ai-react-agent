@@ -1,20 +1,20 @@
 # RAG-LLM Suite
 
-A collection of **Retrieval-Augmented Generation (RAG)** projects built on top of **Large Language Models (LLMs)**.  
-The suite demonstrates how to combine **semantic search** with **generative models** to provide accurate, context-grounded answers.
+> A cutting-edge **Retrieval-Augmented Generation (RAG)** suite powered by **Large Language Models (LLMs)**, designed for building intelligent, domain-specific assistants.  
+> From **legal document Q&A** to **interactive chatbots**, this project showcases how modern AI can bridge **retrieval** and **reasoning**.
 
 ---
 
 ## Key Features
-- **Modular design**: LangChain-based RAG pipeline, Chainlit chatbot UI, and Legal-domain RAG module.
-- **Semantic retrieval**: FAISS / Qdrant vector search integrated with LLMs.
-- **Legal-domain support**: Specialized module for Vietnamese legal documents.
-- **Interactive UI**: Real-time chatbot interface with Chainlit.
-- **Extensible**: Easy to add new data sources, retrievers, or frontends.
+- **Modular RAG pipelines**: Plug-and-play with LangChain agents, retrievers, and prompts.  
+- **Semantic search at scale**: Integrates FAISS and Qdrant vector stores.  
+- **Domain-specific AI**: Specialized legal RAG module for Vietnamese law.  
+- **Interactive experience**: Real-time chatbot powered by Chainlit.  
+- **Production-ready mindset**: Clean structure, extensible modules, and future deployment plan.  
 
 ---
 
-## Project Structure
+## Project Architecture
 ```
 rag-llm-suite/
 │
@@ -64,25 +64,43 @@ jupyter notebook legal_document_search.ipynb
 
 ## Example Output
 ```
-User: Quy định về chấm dứt hợp đồng lao động là gì?
-System: Theo Điều 34 Bộ luật Lao động 2019, hợp đồng lao động chấm dứt trong các trường hợp: ...
+👤 User: Quy định về chấm dứt hợp đồng lao động là gì?
+
+🤖 AI Agent:
+Theo Điều 34 Bộ luật Lao động 2019, hợp đồng lao động chấm dứt trong các trường hợp:
+- Hết hạn hợp đồng
+- Hai bên thỏa thuận chấm dứt
+- Người lao động đủ tuổi nghỉ hưu
 (Source: legal_doc_2023.pdf)
 ```
 
 ## Tech Stack
-- LangChain – RAG pipeline, retrievers, chains
-- LLMs – OpenAI GPT / HuggingFace models
-- Vector DBs – FAISS, Qdrant
-- UI – Chainlit
-- Python – Core implementation
+- **LangChain** – Chains, agents, retrievers
+- **LLMs** – OpenAI GPT / HuggingFace models
+- **Vector DBs** – FAISS, Qdrant
+- **Frontend** – Chainlit UI for interactive chat
+- **Backend** – Python (FastAPI-ready)
 
-## Use Cases
-- Legal document Q&A (Vietnamese law)
-- Knowledge base assistants
-- Enterprise search + chatbots
-- Educational tools for document exploration
+## Real-World Use Cases
+- **Legal AI Assistant:** Search and explain Vietnamese legal codes.
+- **Enterprise Knowledge Base:** Internal document Q&A with source grounding.
+- **Educational Chatbot:** Support learning from textbooks, research papers.
+- **Research Assistant:** Semantic search across large corpora of documents.
+
+## Roadmap
+- Add evaluation metrics (Faithfulness, Recall@k, BLEU/ROUGE)
+- Dockerize for easy deployment
+- Multi-lingual RAG pipelines (EN–VI)
+- Plug-and-play API with FastAPI
 
 ## Future Work
 - Add evaluation metrics (e.g., Faithfulness, Recall@k)
 - Dockerize apps for easy deployment
 - Support multi-lingual datasets
+
+## Why this project?
+This suite is not just a demo. It is a foundation for building production-level intelligent assistants, with modularity and scalability in mind.
+It demonstrates:
+- Understanding of LLM + RAG architecture
+- Ability to design practical AI systems
+- Skills in both research and engineering
