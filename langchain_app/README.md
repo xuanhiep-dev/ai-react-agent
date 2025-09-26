@@ -34,6 +34,8 @@ In this project, the pipeline is applied to **research data querying**, enabling
 >
 > *(Sources: Nature Medicine 2023; arXiv:2401.56789)*
 
+---
+
 ## Real-World Applications
 - **Academic Research**: Query and summarize scientific papers with source grounding.  
 - **Medical AI**: Retrieve and contextualize multimodal medical studies.  
