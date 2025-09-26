@@ -19,17 +19,6 @@
 
 ---
 
-## 🔎 System Overview
-
-```mermaid
-flowchart TD
-    A[User Query] --> B[Retriever: FAISS / Qdrant]
-    B --> C[Relevant Documents]
-    C --> D[LLM: GPT / HuggingFace]
-    D --> E[Generated Answer + Sources]
-
----
-
 ## Project Architecture
 ```
 rag-llm-suite/
@@ -79,7 +68,6 @@ jupyter notebook legal_document_search.ipynb
 ```
 
 ## Example Output
-```
 👤 **User Query:**  
 *Quy định về chấm dứt hợp đồng lao động là gì?*
 
@@ -93,7 +81,7 @@ jupyter notebook legal_document_search.ipynb
 > - **Người lao động đủ tuổi nghỉ hưu**  
 >
 > *(Source: legal_doc_2023.pdf)*
-
+```
 
 ## Benchmarks / Evaluation
 | Metric          | Value |
