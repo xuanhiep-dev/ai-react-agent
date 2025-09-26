@@ -18,7 +18,6 @@ In this project, the pipeline is applied to **research data querying**, enabling
 ---
 
 ## Example Use Case
-```
 👤 **User Query:**
 *What are the recent advances in using multimodal AI for cancer diagnosis?*  
 
@@ -34,7 +33,6 @@ In this project, the pipeline is applied to **research data querying**, enabling
 > Together, these approaches mark a shift toward **integrated reasoning**, enabling AI systems to deliver more accurate, explainable, and context-aware diagnostic support.  
 >
 > *(Sources: Nature Medicine 2023; arXiv:2401.56789)*
-```
 
 ## Real-World Applications
 - **Academic Research**: Query and summarize scientific papers with source grounding.  
