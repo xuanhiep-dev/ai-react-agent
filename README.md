@@ -79,7 +79,6 @@ jupyter notebook legal_document_search.ipynb
 ```
 
 ## Example Output
-```
 <div style="border: 2px solid #4CAF50; border-radius: 10px; padding: 15px; background-color: #f9f9f9;">
 
 <h3>👤 User Query</h3>
