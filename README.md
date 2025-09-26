@@ -78,20 +78,24 @@ cd chainlit_app
 jupyter notebook legal_document_search.ipynb
 ```
 
-## Example Output 
-> 👤 **User Query:**  
-> *Quy định về chấm dứt hợp đồng lao động là gì?*
+## ⚖️ Example Output
 
-> **Context (from uploaded file):**  
-> *Bộ luật Lao động 2019 – Điều 34: Hợp đồng lao động có thể chấm dứt khi hết hạn, khi hai bên đồng ý kết thúc trước thời hạn, hoặc khi người lao động đã > đến tuổi nghỉ hưu theo quy định pháp luật. Ngoài ra còn một số trường hợp đặc biệt khác…* 
->
-> 🤖 **Chatbot Answer:**  
-> **Theo Điều 34 Bộ luật Lao động 2019**, hợp đồng lao động chấm dứt trong các trường hợp chính:  
-> - **Hết hạn hợp đồng**  
-> - **Hai bên thỏa thuận chấm dứt**  
-> - **Người lao động đủ tuổi nghỉ hưu**  
->
-> *(Source: legal_doc_2023.pdf)*
+<details>
+<summary>👤 User Query: <i>Quy định về chấm dứt hợp đồng lao động là gì?</i></summary>
+
+**Context (from uploaded file):**  
+Bộ luật Lao động 2019 – Điều 34: Hợp đồng lao động có thể chấm dứt khi hết hạn, khi hai bên đồng ý kết thúc trước thời hạn, hoặc khi người lao động đã đến tuổi nghỉ hưu theo quy định pháp luật. Ngoài ra còn một số trường hợp đặc biệt khác…  
+
+**🤖 Chatbot Answer:**  
+Theo Điều 34 Bộ luật Lao động 2019, hợp đồng lao động chấm dứt trong các trường hợp chính:  
+- Hết hạn hợp đồng  
+- Hai bên thỏa thuận chấm dứt  
+- Người lao động đủ tuổi nghỉ hưu  
+
+*(Source: legal_doc_2023.pdf)*
+</details>
+
+```
 
 ## Benchmarks / Evaluation
 | Metric          | Value |
