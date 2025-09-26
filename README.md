@@ -78,8 +78,8 @@ cd chainlit_app
 jupyter notebook legal_document_search.ipynb
 ```
 
-## Example Output
-```
+## ⚖️ Example Output
+
 <details>
 <summary>👤 User Query: <i>Quy định về chấm dứt hợp đồng lao động là gì?</i></summary>
 
