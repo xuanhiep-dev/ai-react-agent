@@ -67,6 +67,8 @@ cd chainlit_app
 jupyter notebook legal_document_search.ipynb
 ```
 
+---
+
 ## Example Output
 👤 **User Query:**  
 *Quy định về chấm dứt hợp đồng lao động là gì?*
@@ -81,6 +83,8 @@ jupyter notebook legal_document_search.ipynb
 > - **Người lao động đủ tuổi nghỉ hưu**  
 >
 > *(Source: legal_doc_2023.pdf)*
+
+---
 
 ## Benchmarks / Evaluation
 | Metric          | Value |
